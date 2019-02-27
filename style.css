@@ -1,0 +1,38 @@
+div.header{
+    height: 80px;
+    width: 100%;
+}
+div.header h1 {
+    align-items: center;
+}
+body {
+    background: darkseagreen;
+    height: 100%;
+}
+p {
+    background: chartreuse;
+    width: 11rem;
+    border: chocolate;
+    border-radius: 3rem;
+    padding: 3rem;
+    margin-top: auto;
+    font-family: "Comic Sans MS";
+    font-size: 3rem;
+}
+input#innum {
+    font-size: 50cm;
+    font-size: medium;
+    height: 5rem;
+
+}
+div.main {
+    height: 100%;
+display: flex;
+}
+button {
+    font-size: 3rem;
+}
+div.footer{
+    height: 80px;
+    width: 100%;
+}
