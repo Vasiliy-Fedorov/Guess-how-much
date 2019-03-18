@@ -1,21 +1,17 @@
 div.header{
     height: 80px;
     width: 100%;
-}
-div.header h1 {
     align-items: center;
+    text-align: center!important;
+    border: 3px;
 }
-body {
+div.n1 {
     background: darkseagreen;
     height: 100%;
 }
 p {
-    background: chartreuse;
-    width: 11rem;
-    border: chocolate;
-    border-radius: 3rem;
-    padding: 3rem;
-    margin-top: auto;
+
+   // margin-top: auto;
     font-family: "Comic Sans MS";
     font-size: 3rem;
 }
@@ -26,9 +22,14 @@ input#innum {
     width: 167px;
 
 }
-div.main {
+span.main {
+    background: chartreuse;
+    width: 11rem;
+    border: chocolate;
+    border-radius: 3rem;
+    padding: 3rem;
     height: 100%;
-display: flex;
+    display: flex;
 }
 button {
     font-size: 3rem;
@@ -36,4 +37,5 @@ button {
 div.footer{
     height: 80px;
     width: 100%;
+    text-align: center!important;
 }
