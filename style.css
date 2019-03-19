@@ -5,13 +5,17 @@
     text-align: center!important;
     padding-bottom: 40px;
 }
-div.n1 {
+.n1 {
     background: darkseagreen;
     height: 100%;
 }
 .card-deck {
     display: flex;
 
+}
+#out {
+    text-align: center;
+    color: white;
 }
 p {
 
@@ -20,7 +24,7 @@ p {
     font-size: 3rem;
 }
 input#innum {
-
+    text-align: center;
     font-size: 3rem;
     height: 3rem;
     width: 167px;
@@ -30,7 +34,7 @@ input#innum {
     display: block !important;
 }
 .card {
-    text-align: center!important;
+    text-align: center;
     background: chartreuse;
     width: 200px;
     border: chocolate;
@@ -52,6 +56,11 @@ button {
     font-size: 3rem;
     height: 7rem;
     width: 20rem;
+}
+div.button {
+
+    display: flex;
+    margin-top: 50%;
 }
 .footer{
     height: 80px;
