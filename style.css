@@ -1,13 +1,17 @@
-div.header{
+.header{
     height: 80px;
     width: 100%;
     align-items: center;
     text-align: center!important;
-    border: 3px;
+    padding-bottom: 40px;
 }
 div.n1 {
     background: darkseagreen;
     height: 100%;
+}
+.card-deck {
+    display: flex;
+
 }
 p {
 
@@ -22,20 +26,36 @@ input#innum {
     width: 167px;
 
 }
-span.main {
+.input {
+    display: block !important;
+}
+.card {
+    text-align: center!important;
     background: chartreuse;
-    width: 11rem;
+    width: 200px;
     border: chocolate;
     border-radius: 3rem;
-    padding: 3rem;
-    height: 100%;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-right-width: 3px;
+    padding: 1rem;
+   // height: 100%;
     display: flex;
+    flex: 1 0 0%;
+    margin-right: 15px;
+    margin-left: 15px;
+
 }
 button {
     font-size: 3rem;
+    height: 7rem;
+    width: 20rem;
 }
-div.footer{
+.footer{
     height: 80px;
     width: 100%;
     text-align: center!important;
+    margin-top: 50px;
 }
