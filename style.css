@@ -2,15 +2,17 @@
     height: 80px;
     width: 100%;
     align-items: center;
-    text-align: center!important;
-    padding-bottom: 40px;
+    text-align: center;
+    padding-bottom: 10px;
 }
-.n1 {
-    background: darkseagreen;
+.body {
+    background: #7fb97f;
     height: 100%;
 }
 .card-deck {
     display: flex;
+    max-width: 700px;
+    margin: auto;
 }
 #out {
     text-align: center;
@@ -18,7 +20,8 @@
 }
 p {
 
-   // margin-top: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-family: "Comic Sans MS";
     font-size: 3rem;
 }
@@ -36,7 +39,7 @@ input#innum {
 .card {
     text-align: center;
     background: #90e762;;
-    width: 200px;
+    max-width: 200px;
     border: chocolate;
     border-radius: 3rem;
     border-bottom-style: solid;
@@ -48,15 +51,15 @@ input#innum {
    // height: 100%;
     display: flex;
     flex: 1 0 0%;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 button {
     background-color: #49e22b;
     font-size: 3rem;
-    height: 7rem;
-    width: 20rem;
+    height: auto;
+    width: auto;
 
 }
 div.button {
@@ -67,5 +70,5 @@ div.button {
     height: 80px;
     width: 100%;
     text-align: center!important;
-    margin-top: 50px;
+    margin-top: 40px;
 }
